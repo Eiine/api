@@ -1,9 +1,12 @@
 import express from "express";
+import cors from "cors";
 const app = express();
 const port = 3000;
+
 //config
 app.use(express.json());
 
+app.use(cors("*"));
 app.get("/", (req, res) => {
   console.log("hola mundo");
   res.send("hola estoy aqui miguel");
