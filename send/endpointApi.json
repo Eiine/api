@@ -1,0 +1,12 @@
+[
+  {
+    "url": "http://localhost:3000",
+    "path": "/home",
+    "description": "",
+    "methods": [
+      "GET",
+      "POST"
+    ],
+    "data": {}
+  }
+]
